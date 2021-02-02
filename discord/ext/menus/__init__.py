@@ -34,7 +34,7 @@ import re
 from collections import OrderedDict, namedtuple
 
 # Needed for the setup.py script
-__version__ = '1.0.0-a'
+__version__ = '0.0.0.0-a'
 
 class MenuError(Exception):
     pass
@@ -316,8 +316,8 @@ class Menu(metaclass=_MenuMeta):
         calling :meth:`send_initial_message`\, if for example you have a pre-existing
         message you want to attach a menu to.
     """
-    def __init__(self, *, timeout=180.0, delete_message_after=False,
-                          clear_reactions_after=False, check_embeds=False, message=None):
+    def __init__(self, *, timeout=40.0, delete_message_after=False,
+                          clear_reactions_after=True, check_embeds=False, message=None):
 
         self.timeout = timeout
         self.delete_message_after = delete_message_after
