@@ -2,7 +2,7 @@ from setuptools import setup
 import re
 
 version = ''
-with open('discord/ext/menus/__init__.py') as f:
+with open('discord/ext/green/__init__.py') as f:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read(), re.MULTILINE).group(1)
 
 if not version:
@@ -27,9 +27,9 @@ if version.endswith(('a', 'b', 'rc')):
 
 setup(name='discord-ext-green',
       author='Green',
-      url='https://github.com/GreenDiscord/discord-ext-menus',
+      url='https://github.com/GreenDiscord/discord-ext-green',
       version=version,
-      packages=['discord.ext.menus'],
+      packages=['discord.ext.green'],
       license='MIT',
       description='An extension module to make reaction based menus with discord.py',
       install_requires=['discord.py>=1.2.5'],
