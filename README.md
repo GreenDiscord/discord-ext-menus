@@ -1,4 +1,6 @@
 ### discord-ext-menus
+### Greens Version
+
 
 An experimental extension menu that makes working with reaction menus a bit easier.
 
@@ -9,7 +11,7 @@ An experimental extension menu that makes working with reaction menus a bit easi
 Installing is done purely via git:
 
 ```py
-python -m pip install -U git+https://github.com/Rapptz/discord-ext-menus
+python -m pip install -U git+https://github.com/GreeenDiscord/discord-ext-menus
 ```
 
 ## Getting Started
