@@ -34,7 +34,7 @@ import re
 from collections import OrderedDict, namedtuple
 
 # Needed for the setup.py script
-__version__ = 'greeeennnnnnnnn'
+__version__ = '0.0.1-a'
 
 class MenuError(Exception):
     pass
