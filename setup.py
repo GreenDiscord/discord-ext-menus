@@ -25,11 +25,11 @@ if version.endswith(('a', 'b', 'rc')):
     except Exception:
         pass
 
-setup(name='discord-ext-menus',
-      author='Rapptz',
-      url='https://github.com/Rapptz/discord-ext-menus',
+setup(name='discord-ext-green',
+      author='Green',
+      url='https://github.com/GreenDiscord/discord-ext-menus',
       version=version,
-      packages=['discord.ext.menus'],
+      packages=['discord.ext.green'],
       license='MIT',
       description='An extension module to make reaction based menus with discord.py',
       install_requires=['discord.py>=1.2.5'],
